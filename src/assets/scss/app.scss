@@ -1,0 +1,16 @@
+@import "./node_modules/bulma/bulma.sass";
+$fa-font-path : "~@fortawesome/fontawesome-free/webfonts";
+@import "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "./node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+$border-color: grey;
+
+body {
+  padding: 2rem;
+  .app {
+    font-family: helvetica, arial, sans-serif;
+    padding: 2rem;
+    margin-top: 2rem;
+    border: 1px solid $border-color;
+  }
+}
