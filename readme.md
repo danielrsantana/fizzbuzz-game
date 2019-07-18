@@ -1,5 +1,9 @@
-# moebel-fizzbuzz
-ReactJS + Typescript &amp; Jest Knowledge Test for Moebel Company
+# react-fizzbuzz-game
+ReactJS + Typescript &amp; Jest FizzBuzz Game
+
+## description
+The rule is simple: Numbers dived by 3: Fizz; Numbers Divided by 5: Buzz; Numbers divided by both, FizzBuzz
+(and for the rest? Display the number)
 
 ## To Start:
 ```

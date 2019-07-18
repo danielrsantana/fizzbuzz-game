@@ -82,7 +82,7 @@ describe("APP Sample Page", () => {
     it("should render title", () => {
         const titleElement = wrapper.instance().renderTitle();
         const node = shallow(titleElement);
-        expect(node.find('.title').text()).toContain('Moebel FizzBuzz');
+        expect(node.find('.title').text()).toContain('Welcome to FizzBuzz App');
     });
 
     it("should render controls", () => {

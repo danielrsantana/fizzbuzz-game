@@ -97,7 +97,9 @@ export default class App extends React.Component<{}, ModalState> {
         return (
             <div className="appTitle columns is-info">
                 <div className="column is-12">
-                    <div className="title is-info">Welcome to Moebel FizzBuzz</div>
+                    <div className="title is-info">Welcome to FizzBuzz App</div>
+                    <h3>The rule is simple: Numbers dived by 3: Fizz; Numbers Divided by 5: Buzz; Numbers divided by both, FizzBuzz</h3>
+                    <h3><i>(and for the rest? Display the number)</i></h3>
                 </div>
             </div>
         );
