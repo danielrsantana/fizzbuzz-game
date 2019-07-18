@@ -11,14 +11,14 @@
   ],
   "author": "Daniel Santana",
   "scripts": {
-    "build": "webpack -p --config=config/webpack/dev.webpack.config.js",
+    "build": "webpack -p --config=config/webpack/prod.webpack.config.js",
     "clean-dist": "rm -f -r -d dist",
     "lint": "tslint './src/**/*.ts*' --format stylish --force",
     "start": "npm run start-dev",
     "start-dev": "webpack-dev-server --config=config/webpack/dev.webpack.config.js",
     "start-prod": "npm run build && node express.js",
     "test": "jest"
-  },
+  },  
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
